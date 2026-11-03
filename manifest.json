@@ -4,9 +4,7 @@
   "version": "1.0",
   "description": "智能简历筛选与话术生成，半自动安全填入，支持官方 API Key。",
   "permissions": [
-    "storage",
-    "activeTab",
-    "scripting"
+    "storage"
   ],
   "host_permissions": [
     "https://*.58.com/*",
