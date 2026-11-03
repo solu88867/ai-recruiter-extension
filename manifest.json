@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "AI 招聘助手 (防风控版)",
+  "version": "1.0",
+  "description": "智能简历筛选与话术生成，半自动安全填入，支持官方 API Key。",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.58.com/*",
+    "https://*.zhipin.com/*",
+    "https://api.openai.com/*",
+    "https://api.deepseek.com/*",
+    "https://dashscope.aliyuncs.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.58.com/*",
+        "https://*.zhipin.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

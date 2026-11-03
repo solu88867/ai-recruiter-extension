@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>AI 招聘助手设置</title>
+    <style>
+        body { width: 320px; font-family: Arial, sans-serif; padding: 12px; margin: 0; background: #f9f9f9; }
+        h3 { margin-top: 0; font-size: 16px; color: #333; }
+        .form-group { margin-bottom: 12px; }
+        label { display: block; font-size: 12px; font-weight: bold; margin-bottom: 4px; color: #555; }
+        input, textarea, select { width: 100%; box-sizing: border-box; padding: 6px; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; }
+        textarea { height: 70px; resize: vertical; }
+        button { width: 100%; background: #007bff; color: white; border: none; padding: 8px; font-size: 14px; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        #status { font-size: 12px; margin-top: 8px; color: green; text-align: center; }
+    </style>
+</head>
+<body>
+    <h3>AI 招聘助手配置</h3>
+    
+    <div class="form-group">
+        <label for="apiUrl">API 基础地址 (Base URL):</label>
+        <input type="text" id="apiUrl" value="https://api.deepseek.com/v1" placeholder="例如: https://api.deepseek.com/v1">
+    </div>
+
+    <div class="form-group">
+        <label for="apiKey">官方 API Key:</label>
+        <input type="password" id="apiKey" placeholder="sk-xxxxxxxxxxxxxxxx">
+    </div>
+
+    <div class="form-group">
+        <label for="apiModel">模型名称 (Model):</label>
+        <input type="text" id="apiModel" value="deepseek-chat" placeholder="deepseek-chat 或 gpt-4o">
+    </div>
+
+    <div class="form-group">
+        <label for="jobDesc">职位描述 (JD) 与招聘要求:</label>
+        <textarea id="jobDesc" placeholder="请在此输入你当前招聘的岗位要求、薪资、硬性条件..."></textarea>
+    </div>
+
+    <button id="saveBtn">保存配置</button>
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
