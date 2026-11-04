@@ -26,13 +26,10 @@ A Chrome Manifest V3 browser extension that helps HR quickly analyze candidate r
 
 ### 📦 安装方法
 
-#### 1. 下载代码
+#### 方式一：从 Chrome 应用商店直接安装（推荐）
+👉 **点击前往 [Chrome 应用商店](https://chromewebstore.google.com/detail/ai-%E6%8B%9B%E8%81%98%E5%8A%A9%E6%89%8B-%E9%98%B2%E9%A3%8E%E6%8E%A7%E7%89%88/gphkdmecndgldclbmkbophdkpjigjgeg) 下载安装**
 
+#### 方式二：开发者本地安装
+1. 下载代码：
 ```bash
 git clone https://github.com/solu88867/ai-recruiter-extension.git
-
-#### 2. 拓展下载
-
-```bash
-
-https://chromewebstore.google.com/detail/ai-%E6%8B%9B%E8%81%98%E5%8A%A9%E6%89%8B-%E9%98%B2%E9%A3%8E%E6%8E%A7%E7%89%88/gphkdmecndgldclbmkbophdkpjigjgeg?authuser=0&hl=zh-CN&pli=1
