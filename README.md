@@ -30,3 +30,7 @@ A Chrome Manifest V3 browser extension that helps HR quickly analyze candidate r
 
 ```bash
 git clone https://github.com/solu88867/ai-recruiter-extension.git
+
+#### 2.拓展下载
+
+https://chromewebstore.google.com/detail/ai-%E6%8B%9B%E8%81%98%E5%8A%A9%E6%89%8B-%E9%98%B2%E9%A3%8E%E6%8E%A7%E7%89%88/gphkdmecndgldclbmkbophdkpjigjgeg?authuser=0&hl=zh-CN&pli=1
